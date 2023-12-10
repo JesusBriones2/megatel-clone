@@ -1,35 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Megatel | Internet por Fibra Óptica</title>
-    <link
-      rel="shortcut icon"
-      href="./assets/logo-megatel.png"
-      type="image/x-icon"
-    />
 
-    <link rel="stylesheet" href="./src/base.css" />
-    <link rel="stylesheet" href="./src/styles.css" />
-    <script defer src="./src/script.js"></script>
-
-    <script src="https://kit.fontawesome.com/40d9a826da.js" crossorigin="anonymous"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
+
   <body>
-    <header class="hero">
-      <section class="hero__header container">
+    <div class="bg-image"></div>
+
+    <header class="hero container">
+      <section class="hero__header">
         <!-- Logo de la empresa -->
         <figure class="hero__logo">
           <img
-            src="./assets/logo-megatel-blanco.png"
+            src="/assets/img/logo-megatel-blanco.png"
             alt="Logo de la empresa Megatel"
           />
         </figure>
@@ -37,39 +20,41 @@
         <!-- Navegación -->
         <nav class="nav">
           <input type="checkbox" hidden id="nav__input" />
-          <label class="nav__toggle" for="nav__input">
+          <label class="nav__toggle-cta" for="nav__input">
             <i class="fa-solid fa-bars"></i>
           </label>
 
           <div class="nav__overlay">
-            <label class="nav__toggle" for="nav__input">
-              <i class="fa-solid fa-xmark"></i>
-            </label>
-
-            <ul class="nav__links">
-              <li>
-                <a class="nav__link" href="./index.html">Inicio</a>
-              </li>
-              <li>
-                <a class="nav__link" href="#plans">Planes</a>
-              </li>
-              <li>
-                <a class="nav__link" href="#">Cobertura</a>
-              </li>
-              <li>
-                <a class="nav__link" href="#">Contratar</a>
-              </li>
-              <li>
-                <a class="nav__link cta nav__link--cta" href="#">
-                  Consultar Factura
-                </a>
-              </li>
-            </ul>
+            <div class="nav__container">
+              <label class="nav__toggle-cta" for="nav__input">
+                <i class="fa-solid fa-xmark"></i>
+              </label>
+  
+              <ul class="nav__links">
+                <li>
+                  <a class="nav__link" href="./index.html">Inicio</a>
+                </li>
+                <li>
+                  <a class="nav__link" href="#plans">Planes</a>
+                </li>
+                <li>
+                  <a class="nav__link" href="#">Cobertura</a>
+                </li>
+                <li>
+                  <a class="nav__link" href="#">Contratar</a>
+                </li>
+                <li>
+                  <a class="nav__link nav__link--cta" href="#">
+                    Consultar Factura
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </section>
 
-      <section class="hero__texts container">
+      <section class="hero__texts">
         <p class="hero__text">Es el momento !</p>
 
         <h1 class="hero__title">
