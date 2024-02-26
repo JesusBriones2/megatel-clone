@@ -5,16 +5,11 @@ export default {
 		extend: {},
 
 		colors: {
-			'white': '#ffffff',
-			'cyan-blue': '#0dcaf0',
-			'cyan-blue-hover': '#2990d4',
-			'black-opacity': '#00000055',
-			'dark-gray': '#212529',
-			'gray': '#50575c',
-			'yellow': '#ffca2c',
-			'yellow-hover': '#eabb30',
-			'navy-blue': '#0e385e',
-			'navy-blue-200': '#0f3353'
+			"pale-blue": "#E0EEEC",
+			"mid-night-blue": "#00315D",
+			"slate-gray": "#6C757D",
+			"vivid-blue": "#0095FA",
+			"dark-blue": "#0E385E"
 		}
 	},
 	plugins: [],
