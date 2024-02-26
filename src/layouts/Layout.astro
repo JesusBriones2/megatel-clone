@@ -1,6 +1,5 @@
 ---
-import logo from '../assets/img/logo-megatel.png'
-import '../assets/fonts/fonts.css'
+import favicon from '../assets/img/logo-megatel.png'
 
 interface Props {
   title: string
@@ -15,12 +14,8 @@ const { title } = Astro.props
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href=`${logo.src}` />
+    <link rel="icon" href=`${favicon.src}` />
     <meta name="generator" content={Astro.generator} />
-
-    <script
-      src="https://kit.fontawesome.com/40d9a826da.js"
-      crossorigin="anonymous"></script>
     <title>{title}</title>
   </head>
   <body>
@@ -29,36 +24,5 @@ const { title } = Astro.props
 </html>
 
 <style is:global>
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  html:has(.nav input:checked) {
-    overflow: hidden;
-  }
-
-  body {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-  }
-
-  .container {
-    padding: 150px 0;
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .b {
-    border: 2px solid red;
-  }
-
-  .l {
-    outline: 1px solid red;
-  }
-
-  * {
-    outline: 1px solid red;
-  }
 
 </style>
